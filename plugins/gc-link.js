@@ -52,9 +52,9 @@ const handler = async (m, {conn, args}) => {
         conn.reply(m.chat, 'https://chat.whatsapp.com/' + await conn.groupInviteCode(group), m, {
            contextInfo: {externalAdReply: {mediaUrl: null, mediaType: 1, description: null,
            title: tradutor.texto1[0],
-           body: '𝐆𝐇𝐎𝐒𝐓 𝐁𝐎𝐓',
+           body: '𝐋𝐚𝐛𝐞𝐭𝐢𝐧𝐞𝐳𝐳',
            previewType: 0, thumbnail: fs.readFileSync('./Menu2.jpg'),
-           sourceUrl: `https://github.com/BrunoSobrino/TheMystic-Bot-MD`}
+           sourceUrl: `https://www.instagram.com/vs_connie`}
            }
         }
       );  
